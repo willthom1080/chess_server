@@ -1,0 +1,12 @@
+{
+  "name": "chess-relay-server",
+  "version": "1.0.0",
+  "description": "Fairy chess WebSocket relay",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
