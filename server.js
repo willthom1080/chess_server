@@ -78,7 +78,8 @@ wss.on('connection', (ws) => {
             }
 
             case 'game_setup':
-            case 'move': {
+            case 'move':
+            case 'resign': {
                 const room = rooms.get(ws.roomCode);
                 if (!room) return;
 
